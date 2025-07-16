@@ -1,4 +1,4 @@
-package HomeWork.HomeWork01;
+package HomeWorks.HomeWork01;
 
 public class Task01 {
     public static void main(String[] args) {
@@ -7,5 +7,3 @@ public class Task01 {
         System.out.println(x + " " + y + " " + z + " " + (x + y));
     }
 }
-
-
