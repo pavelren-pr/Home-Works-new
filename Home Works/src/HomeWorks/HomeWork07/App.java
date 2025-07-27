@@ -44,9 +44,12 @@ public class App {
 
                 products.add(new DiscountProduct(name, cost, discount, validUntil));
             } else {
-
+                // Обработка обычного продукта
                 String[] parts = line.split("=");
-                if (parts.length < 2) continue;
+                if (parts.length < 2) {
+                    System.out.println("Ошибка: неверный формат. Правильно: 'Имя = значение'");
+                    continue;
+                };
 
                 String name = parts[0].trim();
                 String costStr = parts[1].trim();
