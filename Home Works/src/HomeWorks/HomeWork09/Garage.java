@@ -1,6 +1,8 @@
 package HomeWorks.HomeWork09;
 
 import HomeWorks.HomeWork09.Cars.Car;
+import HomeWorks.HomeWork09.Cars.PerformanceCar;
+import HomeWorks.HomeWork09.Cars.ShowCar;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -20,6 +22,22 @@ public class Garage {
     public void modifyCar(int carNumber) {
         Car car = parkedCars[carNumber];
         System.out.println(car.toString());
+
+        // Формируем динамическое меню
+        StringBuilder menu = new StringBuilder();
+        menu.append("Выберите параметр для модификации: \n");
+        menu.append("Мощность - 1\n");
+        menu.append("Ускорение - 2\n");
+        menu.append("Подвеска - 3\n");
+        menu.append("Долговечность - 4\n");
+
+        if (car instanceof PerformanceCar) {
+            menu.append("Дополнения - 5\n");
+        } else if (car instanceof ShowCar) {
+            menu.append("Звезды - 5\n");
+        }
+
+        System.out.println(menu);
 
         System.out.println("Выберите параметр для модификации: \nМощность - 1 \nУскорение - 2 \nПодвеска - 3 " +
                 "\nДолговечность - 4 \n");
@@ -47,8 +65,21 @@ public class Garage {
                 int newDurability = scanner.nextInt();
                 car.setDurability(newDurability);
             }
+            case 5 -> {
+                if (car instanceof PerformanceCar) {
+                    System.out.print("Текущие дополнения: " + Arrays.toString(((PerformanceCar) car).getAddOns()) +
+                            "\nВведите новые дополнения (через запятую) - ");
+                    String[] newAddOns = scanner.nextLine().split("\\s*,\\s*");
+                    ((PerformanceCar) car).setAddOns(newAddOns);
+                } else if (car instanceof ShowCar) {
+                    System.out.print("Текущее количество звезд: " + ((ShowCar) car).getStars() +
+                            "\nВведите новое количество - ");
+                    ((ShowCar) car).setStars(scanner.nextInt());
+                } else {
+                    System.out.println("Ошибка: неверный тип автомобиля");
+                }
+            }
             default -> System.out.println("Выбран неверный параметр");
-
         }
     }
 

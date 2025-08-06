@@ -17,6 +17,9 @@ public class PerformanceCar extends Car {
         this.addOns = addOns;
     }
 
+    public PerformanceCar() {
+    }
+
     public String[] getAddOns() {
         return addOns;
     }
