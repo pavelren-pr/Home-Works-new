@@ -45,7 +45,14 @@ public class ShowCar extends Car{
     @Override
     public String toString() {
         return "ShowCar{" +
-                "stars=" + stars +
+                "brand='" + getBrand() + '\'' +
+                ", model='" + getModel() + '\'' +
+                ", manufactureYear=" + getManufactureYear() +
+                ", horsePowers=" + getHorsePowers() +
+                ", acceleration=" + getAcceleration() +
+                ", suspension=" + getSuspension() +
+                ", durability=" + getDurability() +
+                ", stars=" + stars +
                 '}';
     }
 }

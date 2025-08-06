@@ -23,9 +23,7 @@ public class Garage {
         Car car = parkedCars[carNumber];
         System.out.println(car.toString());
 
-        // Формируем динамическое меню
-        StringBuilder menu = new StringBuilder();
-        menu.append("Выберите параметр для модификации: \n");
+        StringBuilder menu = new StringBuilder("Выберите параметр для модификации: \n");
         menu.append("Мощность - 1\n");
         menu.append("Ускорение - 2\n");
         menu.append("Подвеска - 3\n");
@@ -33,22 +31,23 @@ public class Garage {
 
         if (car instanceof PerformanceCar) {
             menu.append("Дополнения - 5\n");
+            menu.append("Внимание: для PerformanceCar мощность увеличивается на 50%, подвеска уменьшается на 25%\n");
         } else if (car instanceof ShowCar) {
             menu.append("Звезды - 5\n");
         }
 
-        System.out.println(menu);
-
-        System.out.println("Выберите параметр для модификации: \nМощность - 1 \nУскорение - 2 \nПодвеска - 3 " +
-                "\nДолговечность - 4 \n");
+        System.out.println(menu.toString());
         Scanner scanner = new Scanner(System.in);
 
         System.out.println();
         switch (scanner.nextInt()) {
             case 1 -> {
-                System.out.print("Текущее значение: " + car.getHorsePowers() + "\nВведите новое значение - ");
-                int newHP = scanner.nextInt();
-                car.setHorsePowers(newHP);
+                System.out.print("Текущее значение: " + car.getHorsePowers());
+                if (car instanceof PerformanceCar) {
+                    System.out.print(" (базовое: " + (int)(car.getHorsePowers() / 1.5) + ")");
+                }
+                System.out.print("\nВведите новое значение - ");
+                car.setHorsePowers(scanner.nextInt());
             }
             case 2 -> {
                 System.out.print("Текущее значение: " + car.getAcceleration() + "\nВведите новое значение - ");

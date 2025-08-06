@@ -1,4 +1,4 @@
-package HomeWorks.HomeWork09;
+package HomeWorks.HomeWork09.Races;
 
 import HomeWorks.HomeWork09.Cars.Car;
 
@@ -62,7 +62,8 @@ public class Race {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Race race = (Race) o;
-        return distance == race.distance && prize == race.prize && Objects.equals(route, race.route) && Objects.deepEquals(members, race.members);
+        return distance == race.distance && prize == race.prize &&
+                Objects.equals(route, race.route) && Objects.deepEquals(members, race.members);
     }
 
     @Override
