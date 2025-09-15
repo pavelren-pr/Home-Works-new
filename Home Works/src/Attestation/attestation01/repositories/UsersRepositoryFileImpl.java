@@ -11,11 +11,6 @@ import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/**
- * Реализация репозитория, хранящего пользователей в текстовом файле.
- * Каждая строка = один пользователь, поля разделяются '|':
- * id|dateTime|login|password|confirmPassword|surname|name|patronymic|age|isWorker
- */
 public class UsersRepositoryFileImpl implements UsersRepository {
 
     private static final String DEFAULT_FILE = "users.txt";
