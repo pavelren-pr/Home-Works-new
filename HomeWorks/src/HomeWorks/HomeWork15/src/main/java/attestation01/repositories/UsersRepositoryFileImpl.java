@@ -1,9 +1,9 @@
 package attestation01.repositories;
 
-import Attestation.attestation01.exceptions.NotFoundException;
-import Attestation.attestation01.exceptions.RepositoryException;
-import Attestation.attestation01.exceptions.ValidationException;
-import Attestation.attestation01.model.User;
+import attestation01.exceptions.NotFoundException;
+import attestation01.exceptions.RepositoryException;
+import attestation01.exceptions.ValidationException;
+import attestation01.model.User;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -166,7 +166,7 @@ public class UsersRepositoryFileImpl implements UsersRepository {
     }
 
     @Override
-    public synchronized User findById(String id) {
+    public synchronized attestation01.model.User findById(String id) {
         return users.stream()
                 .filter(u -> u.getId() != null && u.getId().equals(id))
                 .findFirst()
@@ -174,7 +174,7 @@ public class UsersRepositoryFileImpl implements UsersRepository {
     }
 
     @Override
-    public synchronized List<User> findAll() {
+    public synchronized List<attestation01.model.User> findAll() {
         // возвращаем копию
         return new ArrayList<>(users);
     }

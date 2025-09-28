@@ -1,8 +1,8 @@
 package attestation01.repositories;
 
-import Attestation.attestation01.exceptions.NotFoundException;
-import Attestation.attestation01.exceptions.ValidationException;
-import Attestation.attestation01.model.User;
+import attestation01.exceptions.NotFoundException;
+import attestation01.exceptions.ValidationException;
+import attestation01.model.User;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

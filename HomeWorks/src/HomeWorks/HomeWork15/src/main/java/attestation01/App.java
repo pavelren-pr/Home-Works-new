@@ -1,8 +1,8 @@
 package attestation01;
 
-import Attestation.attestation01.model.User;
-import Attestation.attestation01.repositories.UsersRepository;
-import Attestation.attestation01.repositories.UsersRepositoryFileImpl;
+import attestation01.model.User;
+import attestation01.repositories.UsersRepository;
+import attestation01.repositories.UsersRepositoryFileImpl;
 
 import java.util.List;
 
