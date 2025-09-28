@@ -1,3 +1,5 @@
+/*
+
 package HomeWorks.HomeWork06;
 
 import java.util.Scanner;
@@ -100,6 +102,8 @@ public class App {
         }
     }
 }
+
+ */
 
 /*
 Покупатели 1 проверка:
