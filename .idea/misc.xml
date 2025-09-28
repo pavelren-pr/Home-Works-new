@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/Home Works/HomeWork15/pom.xml" />
         <option value="$PROJECT_DIR$/HomeWorks/HomeWork15/pom.xml" />
         <option value="$PROJECT_DIR$/HomeWorks/src/HomeWorks/HomeWork15/pom.xml" />
+        <option value="$PROJECT_DIR$/HomeWorks/src/HomeWorks/HomeWork16/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -18,5 +19,8 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>
