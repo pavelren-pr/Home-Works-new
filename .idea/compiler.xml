@@ -7,9 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="attestation01-homework16" />
+        <module name="flyway-demo" />
         <module name="HomeWork15" />
-        <module name="HomeWork16" />
         <module name="attestation02" />
+        <module name="HomeWork16" />
+        <module name="HomeWork17" />
       </profile>
     </annotationProcessing>
   </component>

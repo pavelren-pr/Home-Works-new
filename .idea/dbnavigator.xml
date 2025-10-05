@@ -28,7 +28,9 @@
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
     <mapping file-url="file://$PROJECT_DIR$/HomeWorks/src/Attestation/attestation02/main/resources/test-queries.sql" connection-id="2451d5e9-5112-47e7-adff-4a725b5d7e83" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/HomeWorks/src/HomeWorks/HomeWork17/src/main/resources/db/migration/V2__Insert_sample_data.sql" connection-id="2451d5e9-5112-47e7-adff-4a725b5d7e83" session-id="MAIN" current-schema="postgres" />
     <mapping file-url="file://$PROJECT_DIR$/HomeWorks/src/Attestation/attestation02/main/resources/schema.sql" connection-id="2451d5e9-5112-47e7-adff-4a725b5d7e83" session-id="MAIN" current-schema="information_schema" />
+    <mapping file-url="file://$PROJECT_DIR$/HomeWorks/src/HomeWorks/HomeWork17/src/main/resources/db/migration/V1__Create_customer_and_order_tables.sql" connection-id="2451d5e9-5112-47e7-adff-4a725b5d7e83" session-id="MAIN" current-schema="postgres" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
