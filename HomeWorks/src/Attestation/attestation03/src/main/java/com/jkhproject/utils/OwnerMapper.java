@@ -1,4 +1,4 @@
-package Attestation.attestation03.src.main.java.com.jkhproject.utils;
+package com.jkhproject.utils;
 
 import Attestation.attestation03.src.main.java.com.jkhproject.dto.OwnerDto;
 import Attestation.attestation03.src.main.java.com.jkhproject.model.Owner;

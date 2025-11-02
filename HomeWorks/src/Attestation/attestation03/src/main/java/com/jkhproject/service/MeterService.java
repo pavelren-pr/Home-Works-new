@@ -1,9 +1,9 @@
-package Attestation.attestation03.src.main.java.com.jkhproject.service;
+package com.jkhproject.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import Attestation.attestation03.src.main.java.com.jkhproject.model.Meter;
-import Attestation.attestation03.src.main.java.com.jkhproject.repository.MeterRepository;
+import com.jkhproject.model.Meter;
+import com.jkhproject.repository.MeterRepository;
 
 import java.util.List;
 

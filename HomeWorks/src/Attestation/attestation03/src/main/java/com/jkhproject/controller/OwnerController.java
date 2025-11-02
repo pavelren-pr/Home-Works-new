@@ -1,10 +1,10 @@
-package Attestation.attestation03.src.main.java.com.jkhproject.controller;
+package com.jkhproject.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
-import Attestation.attestation03.src.main.java.com.jkhproject.model.Owner;
-import Attestation.attestation03.src.main.java.com.jkhproject.service.OwnerService;
+import com.jkhproject.model.Owner;
+import com.jkhproject.service.OwnerService;
 
 import java.util.List;
 

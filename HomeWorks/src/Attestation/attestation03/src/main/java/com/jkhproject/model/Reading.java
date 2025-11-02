@@ -1,4 +1,4 @@
-package Attestation.attestation03.src.main.java.com.jkhproject.model;
+package com.jkhproject.model;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,4 +1,4 @@
-package Attestation.attestation03.src.main.java.com.jkhproject.dto;
+package com.jkhproject.dto;
 
 import lombok.Data;
 

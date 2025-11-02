@@ -1,7 +1,7 @@
-package Attestation.attestation03.src.main.java.com.jkhproject.repository;
+package com.jkhproject.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import Attestation.attestation03.src.main.java.com.jkhproject.model.Owner;
+import com.jkhproject.model.Owner;
 
 import java.util.List;
 

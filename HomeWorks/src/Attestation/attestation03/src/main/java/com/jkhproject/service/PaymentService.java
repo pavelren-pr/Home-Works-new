@@ -1,9 +1,9 @@
-package Attestation.attestation03.src.main.java.com.jkhproject.service;
+package com.jkhproject.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import Attestation.attestation03.src.main.java.com.jkhproject.model.Payment;
-import Attestation.attestation03.src.main.java.com.jkhproject.repository.PaymentRepository;
+import com.jkhproject.model.Payment;
+import com.jkhproject.repository.PaymentRepository;
 
 import java.util.List;
 
