@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Home-Works-new.iml" filepath="$PROJECT_DIR$/.idea/Home-Works-new.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeWork15.iml" filepath="$PROJECT_DIR$/HomeWork15.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeWorks/src/HomeWorks/HomeWork17/HomeWork17.iml" filepath="$PROJECT_DIR$/HomeWorks/src/HomeWorks/HomeWork17/HomeWork17.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWorks/HomeWorks.iml" filepath="$PROJECT_DIR$/HomeWorks/HomeWorks.iml" />
     </modules>
   </component>
