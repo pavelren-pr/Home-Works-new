@@ -13,11 +13,11 @@
         <module name="attestation01-homework16" />
         <module name="flyway-demo" />
         <module name="attestation02" />
-        <module name="demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="attestation03" target="21" />
+      <module name="finalProject" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
